@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(to left, #333c53, #171D2C);
+    color: #ffffff;
+}
+
+#title {
+    color: #1d0e38;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+    background: #ffffff;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #d63384;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 110px;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #d63384;
+    padding: 0;
+}
+
+.hero-text p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hero-text h3 {
+    margin: 10px 0;
+    margin-bottom: 30px;
+}
+
+.hero-text .btn {
+    background: #d63384;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.hero-img img {
+    max-width: 300px;
+}
+
+.sobre, .contato {
+    box-shadow: 2px 2px 30px 10px rgba(235, 23, 153, 0.2);
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #110a22;
+    font-weight: bold;
+}
+
+.projetos {
+    padding: 60px 20px;
+    text-align: center;
+    color: #f8f8f8;
+}
+
+section h2 {
+  font-size: 2rem;
+  color: #d63384;
+  margin-bottom: 20px;
+}
+
+.sobre p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.social-media-buttons a {
+    text-decoration: none;
+    font-size: 40px;
+    color: #d63384;
+    margin: 5px;
+}
+
+.projetos ul {
+  list-style: none;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+}
+
+ul a {
+    color: #c4a8a8;
+}
+
+.projetos li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.contato-form {
+    max-width: 500px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contato-form input,
+.contato-form textarea {
+    padding: 12px;
+    border: 1px solid #ffc0cb;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff8fb;
+    resize: none;
+}
+
+.contato-form .btn {
+    background-color: #ff8fb1;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-weight: 500;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 5px 15px rgba(255, 143, 177, 0.2);
+}
+
+.contato-form .btn:hover {
+    background-color: #e46087;
+    transform: scale(1.05);
+}
+
+.email-direct {
+    margin-top: 20px;
+    font-size: 0.95rem;
+}
+
+.email-direct a {
+    color: #d63384;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.email-direct a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+    color: #1e0f41;
+    text-align: center;  
+    padding: 20px;
+    background-color: #ffffff;
+    color: #555;
+    font-size: 0.9rem;
+}
